@@ -320,7 +320,7 @@ ul li ul li {
 .progress-border{
     border: 2px solid var(--color-2);
     border-radius: 5px;
-    width: fit-content;
+    width: 100%;
 }
 
 .progress-bar-sql{
