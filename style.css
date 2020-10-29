@@ -1,8 +1,8 @@
 :root{
 
-    --header-font: 'Abril Display EB','Playfair Display', Georgia;
+    --header-font: 'Abril Fatface','Playfair Display', Georgia;
     --desc-font: 'Lato','Open Sans',  -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    --hand-font: 'Anantha Signature', 'Playfair Display';
+    --hand-font:'Abril Fatface';
     --color-1: #f37f61;
     --color-2: #3e527a;
     --color-3: #df7054;
@@ -28,17 +28,17 @@ body{
 
 .text--big{
     font-size: 4rem;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .text--sub{
     font-size: 2.5rem;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .text--sub2{
     font-size: 1rem;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .text--normal{
@@ -493,7 +493,7 @@ ul li ul li {
 .pText{
     height:fit-content;
     padding: 2vh;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .pImg{
