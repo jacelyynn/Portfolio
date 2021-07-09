@@ -15,45 +15,98 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="logoDiv">        
-            <a href="index.html"><img src="assets/Logo.png" alt="" class="logo"></a>
-        </div>
-        <div class="navigation">
-            <ul>
-              <li class="n"><a href="index.html">Home</a></li>
-                <li class="n"><a href="index.html#About">About Me</a></li>
-              <li class="n"><a href="index.html#Skills">Skills</a></li>
-              <li class="n"><a href="index.html#Portfolio">Portfolio</a>
-                <ul class="dropdown">
-                    <li><a href="personalProject.html">Personal Projects</a></li>
-                    <li><a href="uniProject.html">University Projects</a></li>
-                    <li><a href="personalDev.html">Personal Development</a></li>
-                  </ul>
-                </li>              <li class="n"><a href="index.html#Contact">Contact</a></li>
-            </ul>
-        </div>
-    </div>
     <div class="pMain">
-        <h1 class="text--big ss" data-aos="zoom-out-right">My Personal Projects</h1>
-        <p class="pMainText" data-aos="zoom-out-left">As the saying goes, "A picture is worth a thousand words", a big data set can be converted into a single image that summarizes all the important information. That is the reason why I am interested in learning to visualize data. I have learned to visualize data using R, plotly, and Tableau. Below are some interactive dashboards I made using Tableau, feel free to explore the dashboard!</p>
-        
-        <div class="pContainer">
-            <div class="pContainer2">
-                <div class="pImg" data-aos="zoom-in">
-                    <img src="assets/pimg1.png" alt=""></div>
-                <div class="pText textPeach">Space Missions Exploration (1957-2020) <br> <br>
-                    <a href="https://public.tableau.com/views/SpaceMissionsExploration1957-2020/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link" target="_blank"><button class="btn1">View on Tableau </button></a>
-                </div>
+        <div class="header bgNone">
+            <div class="logoContainer">        
+                <a href="index.html"><img src="assets/logoT.png" alt="" class="logoImg"></a>
             </div>
-            <div class="pContainer2">
-                <div class="pImg" data-aos="zoom-in"><img src="assets/pimg2.png" alt=""></div>
-                <div class="pText textPeach">Google Play Store Apps Analysis <br> <br>
-                    <a href="https://public.tableau.com/views/GooglePlayStoreAppsAnalysis_16027753110240/Dashboard?:language=en&:display_count=y&:origin=viz_share_link" target="_blank"><button class="btn1">View on Tableau </button></a>
-                </div>
+            <div class="navigation text--14--sb ">
+                <ul>
+                  <li class="navItem"><a href="index.html">Home</a></li>
+                    <li class="navItem"><a href="index.html#About">About</a></li>
+                  <li class="navItem"><a href="index.html#Skills">Skills</a></li>
+                  <li class="navItem"><a href="index.html#Portfolio">Portfolio</a>
+                    <ul class="dropdown">
+                        <li><a href="personalProject.html">Personal Projects</a></li>
+                        <li><a href="uniProject.html">University Projects</a></li>
+                        <li><a href="personalDev.html">Personal Development</a></li>
+                      </ul>
+                    </li>
+                  <li class="navItem"><a href="index.html#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="personalProjectMain">
+            <div class="personalProjectHeader">
+                <h1 class="text--h2 textBlue" data-aos="zoom-out-right">My <span class="textPeach">Personal</span> Projects</h1>
+                <p class="text--14--sb textBlack" data-aos="zoom-out-left"></p>
             </div>
         </div>
     </div>
 
+
+    <div class="personalProjectContent">
+        <div class="personalProjectContainer">
+            <p class="text--h3 textPeach">Finished Projects</p>
+            <div class="cardRowContainer">
+                <div class="cardContainer">
+                    <div class="cardImgContainer">
+                        <img src="assets/pimg1.png" alt="" class="cardImg">
+                    </div>
+                    <div class="cardTextContainer">
+                        <span class="cardTitle text--20--b textBlack">
+                            Space Missions Exploration (1957-2020)
+                        </span>
+                        <br>
+                        <span class="cardDesc text--14--m">
+                            <a href="https://public.tableau.com/views/SpaceMissionsExploration1957-2020/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link" target="_blank"><button class="btn1 text--btn">View on Tableau</button></a>
+                        </span>
+                    </div>
+                </div>
+                <div class="cardContainer">
+                    <div class="cardImgContainer">
+                        <img src="assets/pimg2.png" alt="" class="cardImg">
+                    </div>
+                    <div class="cardTextContainer">
+                        <span class="cardTitle text--20--b textBlack">
+                            Google Play Store Apps Analysis
+                        </span>
+                        <br>
+                        <span class="cardDesc text--14--m">
+                            <a href="https://public.tableau.com/views/GooglePlayStoreAppsAnalysis_16027753110240/Dashboard?:language=en&:display_count=y&:origin=viz_share_link" target="_blank"><button class="btn1 text--btn">View on Tableau</button></a>
+                        </span>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="personalProjectContent personalProjectContentBG">
+        <div class="personalProjectContainer">
+            <p class="text--h3 textPeach">Ongoing Project</p>
+            <div class="cardRowContainer cardRowContainerSingle">
+                <div class="cardContainer">
+                    <div class="cardImgContainer">
+                        <img src="assets/alsa.png" alt="" class="cardImg">
+                    </div>
+                    <div class="cardTextContainer">
+                        <span class="cardTitle text--20--b textBlack">
+                            Asian Law Students Association
+Local Chapter Universitas Padjadjaran Organization Website
+                        </span>
+                        <br>
+                        <span class="cardDesc text--14--m">
+                            <a href="https://www.figma.com/proto/bhL4C8cBLmcmoaMNlElrEr/ALSA?node-id=137%3A840&scaling=scale-down-width" target="_blank"><button class="btn1 text--btn">View on Figma</button></a>
+                        </span>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="footer text--18--b">
+        © Jacelyn Angraini
+    </div>
 </body>
 </html>

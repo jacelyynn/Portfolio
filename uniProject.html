@@ -15,102 +15,215 @@
 </head>
 
 <body>
-    <div class="header uH">
-        <div class="logoDiv">        
-            <a href="index.html"><img src="assets/logoT2.png" alt="" class="logo"></a>
+    <div class="pMain uniProjectMain">
+        <div class="header bgNone">
+            <div class="logoContainer">        
+                <a href="index.html"><img src="assets/logoT.png" alt="" class="logoImg"></a>
+            </div>
+            <div class="navigation text--14--sb ">
+                <ul>
+                  <li class="navItem"><a href="index.html">Home</a></li>
+                    <li class="navItem"><a href="index.html#About">About</a></li>
+                  <li class="navItem"><a href="index.html#Skills">Skills</a></li>
+                  <li class="navItem"><a href="index.html#Portfolio">Portfolio</a>
+                    <ul class="dropdown">
+                        <li><a href="personalProject.html">Personal Projects</a></li>
+                        <li><a href="uniProject.html">University Projects</a></li>
+                        <li><a href="personalDev.html">Personal Development</a></li>
+                      </ul>
+                    </li>
+                  <li class="navItem"><a href="index.html#Contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="navigation">
-            <ul>
-              <li class="n"><a href="index.html">Home</a></li>
-                <li class="n"><a href="index.html#About">About Me</a></li>
-              <li class="n"><a href="index.html#Skills">Skills</a></li>
-              <li class="n"><a href="index.html#Portfolio">Portfolio</a>
-                <ul class="dropdown ">
-                    <li class="blueLi"><a href="personalProject.html">Personal Projects</a></li>
-                    <li class="blueLi"><a href="uniProject.html">University Projects</a></li>
-                    <li class="blueLi"><a href="personalDev.html">Personal Development</a></li>
-                  </ul>
-                </li>              <li class="n"><a href="index.html#Contact">Contact</a></li>
-            </ul>
+        <div class="personalProjectMain">
+            <div class="personalProjectHeader">
+                <h1 class="text--h2 textBlue" data-aos="zoom-out-right">My <span class="textPeach">University</span> Projects</h1>
+                <p class="text--14--sb textBlack" data-aos="zoom-out-left"></p>
+                <div class="filterRowContainer textBlack text--14--sb">
+                    <div class="filterItem">
+                        <div class="filterImgContainer">
+                            <a href="uniProject.html#s3"><img src="assets/03.png" alt="" class="workImg"></a>
+                        </div>
+                        <div class="filterTextContainer">
+                            <span class="filterText">
+                                <a href="uniProject.html#s3" class="aa">Semester 3</a>  
+                            </span>
+                        </div>
+                    </div>
+                    <div class="filterItem">
+                        <div class="filterImgContainer">
+                            <a href="uniProject.html#s3"><img src="assets/04.png" alt="" class="workImg"></a>
+                        </div>
+                        <div class="filterTextContainer">
+                            <span class="filterText">
+                                <a href="uniProject.html#s3" class="aa">Semester 4</a> 
+                            </span>
+                        </div>
+                    </div>
+                    <div class="filterItem">
+                        <div class="filterImgContainer">
+                            <a href="uniProject.html#s5" class="aa"><img src="assets/05.png" alt="" class="workImg"></a>
+                        </div>
+                        <div class="filterTextContainer">
+                            <span class="filterText">
+                                <a href="uniProject.html#s5" class="aa">Semester 5</a> 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="uMain">
-        <h1 class="text--big textPeach" data-aos="zoom-out-right">My University Projects</h1>
-        <p class="pMainText textPink" data-aos="zoom-out-left">I am a strong believer that we can achieve great things when we are working together rather than working alone. A lot of my university subjects required group projects as the final assignment/exam. Here are some of my favorite ones!</p>
-        
-        <div class="uContainer">
-            <div class="uContainer2">
-                <span class="uHeader" data-aos="zoom-out-left">Semester 2</span>
-                <div class="uImg"  data-aos="zoom-in">
-                    <img src="assets/up2.png" alt="">
-                </div>
-                <span class="uText" data-aos="zoom-in">Group Final Project <br> Object Oriented Programming <br> Money Manager <br> </span>
-                <span class="uText2">
-                    <br>
-                    My group and I made a game called 'Money Manager' which used Java as the programming language. The game's objective is to find ways to earn money by investing or buying things that are available in the game. The users can save the game and resume it when they want to play.
-                    <br>
-                </span>
-            </div>
-             <div class="uContainer2">
-                <span class="uHeader" data-aos="zoom-out-right">Semester 3</span>
-                <div class="uImg" data-aos="zoom-in">
-                    <img src="assets/up1.jpg" alt="">
-                </div>
-                <span class="uText" data-aos="zoom-in">PKM Karsa Cipta 
-                    <br> Artificial Intelligence <br> 
-                    Twitter Sentiment Analyzer <br>
-                </span>
-                <span class="uText2">
-                    <br>
-                    My group and I made a sentiment analyzer for processing Twitter data to gain insight on people's opinion about a certain movie. 
-                    <br>
-                    We used python as the programming language with the help of tweepy API, textblob and matplotlib library. Users can enter the keyword or title of the movies they want to look for and the program will return the sentiment and polarity of the movies based on recent tweets of the movie. 
-                    <br>
-                    Read the documentation <a href="https://binusianorg-my.sharepoint.com/personal/jacelyn_angraini_binus_ac_id/_layouts/15/guestaccess.aspx?docid=06826423c21df4af48a9e8a2f2b163fc8&authkey=ARg0t96O2eXfcjzD00YTUIY&e=CXUC2q" target="_blank" class="aText">here!</a>
-                </span>
-            
-                
-            </div>
 
+    <!-- SEMESTER 2 % 3 -->
+    <div class="personalProjectContent uniProjectContent bg32">
+        <div class="personalProjectContainer">
+
+            <div class="cardRowContainer">
+
+                <div class="cardColumnContainer">
+                    <a id="s3">
+                            <p class="text--h3 textPeach">Semester 3</p>
+                    </a>
+                    <div class="cardContainer">
+                        <div class="cardImgContainer">
+                            <img src="assets/up1.jpg" alt="" class="cardImg">
+                        </div>
+                        <div class="cardTextContainer">
+                            <span class="cardTitle text--20--b textBlack">
+                                Twitter Sentiment Analyzer
+                            </span>
+                            <br>
+                            <span class="cardDesc text--14--m">
+                                    <a href="https://drive.google.com/file/d/151oHv2J2tKh7_J7easHlEviAcHLCLcQn/view?usp=sharing" target="_blank" class="aText"><button class="btn1 text--btn">View</button></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardColumnContainer">
+                    <p class="text--h3 textPeach">Semester 4</p>
+
+                    <div class="cardContainer">
+                        <div class="cardImgContainer">
+                            <img src="assets/up4.png" alt="" class="cardImg">
+                        </div>
+                        <div class="cardTextContainer">
+                            <span class="cardTitle text--20--b textBlack">
+                                Fancy Art Gallery 
+                            </span>
+                            <br>
+                            <span class="cardDesc text--14--m">
+                            <a href="https://jacelyynn.github.io/FancyArt/" target="_blank"><button class="btn1 text--btn">View</button></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+        </div>
         </div>
     </div>
-    <div class="uB">      
-        <span class="uHeader">Semester 4</span>
-        <div class="uContainer">
-                <div class="uContainer2 uBb">
-                    <div class="uImg" data-aos="zoom-in">
-                        <img src="assets/up4.png" alt="">
-                    </div>
-                    <span class="uText" data-aos="fade-up">Final Project <br>Human Computer Interaction <br>Fancy Art Gallery <br></span>
-                    <span class="uText2">
-                        <br>
-                        For our final laboratory project, my group and I was asked to build a website for an art gallery where users can see the art available and when auctions are happening.  
-                        <br>
-                        We used HTML, CSS, and JavaScript to develop the website. I was tasked with building the home screen page which includes several features of the website
-                        <br>
-                        Read the documentation <a href="https://binusianorg-my.sharepoint.com/personal/jacelyn_angraini_binus_ac_id/_layouts/15/guestaccess.aspx?docid=0a220d0aa3f3147cc89f4299f7332752c&authkey=AWMjOqbKrdkRbWFyFPyhpqM&e=w2eIfS" target="_blank" class="aText">here </a>
-                        or view the website <a href="https://jacelyynn.github.io/FancyArt/" target="_blank" class="aText">here!</a>                    
-                    </span>
-                </div>
-                <div class="uContainer2 uBb">
-                    <div class="uImg" data-aos="zoom-in">
-                        <img src="assets/up3.png" alt="">
-                    </div>
-                    <span class="uText " data-aos="fade-up">PKM Karsa Cipta <br>Software Engineering <br> SnapMe! <br></span>
-                    <span class="uText2">
-                        <br>
-                        My group and I made a mobile application based on Android operating system which can help users to take pictures by performing screen mirroring on another device. The application is useful for users who often travels alone and likes to take pictures, it can help users when they want to have their pictures taken by another person so the result is satisfactory.
-                        <br>
-                        We used android studio to develop the application. Users need to be connected through Wi-Fi or in the same network in order to start the screen mirroring process. 
-                        <br>
-                        Read the documentation <a href="https://binusianorg-my.sharepoint.com/personal/jacelyn_angraini_binus_ac_id/_layouts/15/guestaccess.aspx?docid=0341072a14af749ea923342e95e274db4&authkey=AYN-9QOQFhi8NhMS5NRlhCU&e=Xf8lM2" target="_blank" class="aText">here!</a>
 
-                    </span>
+    <!-- SEMESTER 5 - WEB -->
+    <div class="personalProjectContent uniProjectContent bg33">
+        <div class="personalProjectContainer">
+            <a id="s5">
+                <p class="text--h3 textPeach center">Semester 5 <br> <span class="textBlack text--20--b">Web Development</span></p>
+            </a>
+            <div class="cardRowContainer">
+                <div class="cardContainer">
+                    <div class="cardImgContainer">
+                        <img src="assets/sem5-1.png" alt="" class="cardImg">
+                    </div>
+                    <div class="cardTextContainer">
+                        <span class="cardTitle text--20--b textBlack">
+                            WonderfulJourney 
+                        </span>
+                        <br>
+                        <span class="cardDesc text--14--m">
+                                <a href="https://drive.google.com/file/d/1s0HNTaHFOsKkXgC5X97d6pwvTXsqiy9-/view?usp=sharing" target="_blank" class="aText"><button class="btn1 text--btn">View</button></a>
+                        </span>
+                    </div>
                 </div>
-            </div>
-            
-            
-        <!-- </div> -->
+                <div class="cardContainer">
+                    <div class="cardImgContainer">
+                        <img src="assets/sem5-2.png" alt="" class="cardImg">
+                    </div>
+                    <div class="cardTextContainer">
+                        <span class="cardTitle text--20--b textBlack">
+                            ReadAndWArite
+                        </span>
+                        <br>
+                        <span class="cardDesc text--14--m">
+                        <a href="https://drive.google.com/file/d/1AS-3CSkgvVsTeLn3Sfc00-KLyUcREKmz/view?usp=sharing" target="_blank"><button class="btn1 text--btn">View</button></a>
+                        </span>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- SEMESTER 5 - MOBILE -->
+    <div class="personalProjectContent uniProjectContent bg34">
+        <div class="personalProjectContainer">
+            <p class="text--h3 textPeach center">Semester 5 <br> <span class="textBlack text--20--b">Mobile Development</span></p>
+            <div class="cardRowContainer">
+                <div class="cardContainer">
+                    <div class="cardImgContainer">
+                        <img src="assets/EzyCommerce.png" alt="" class="cardImg">
+                    </div>
+                    <div class="cardTextContainer">
+                        <span class="cardTitle text--20--b textBlack">
+                            EzyCommerce
+                        </span>
+                        <br>
+                        <span class="cardDesc text--14--m">
+                                <a href="https://drive.google.com/drive/folders/1CWyedwEnNPw3if9i8i2w7ChMapLbEs4r?usp=sharing" target="_blank" class="aText"><button class="btn1 text--btn">View</button></a>
+                        </span>
+                    </div>
+                </div>
+                <div class="cardContainer">
+                    <div class="cardImgContainer">
+                        <img src="assets/EzyFood.png" alt="" class="cardImg">
+                    </div>
+                    <div class="cardTextContainer">
+                        <span class="cardTitle text--20--b textBlack">
+                            EzyFood
+                        </span>
+                        <br>
+                        <span class="cardDesc text--14--m">
+                        <a href="https://drive.google.com/drive/folders/19amApYsJ0_3UermrP0F2yqvcCU0ZXTSB?usp=sharing" target="_blank"><button class="btn1 text--btn">View</button></a>
+                        </span>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- SEMESTER 5 - DM -->
+    <div class="personalProjectContent uniProjectContent bg35">
+        <div class="personalProjectContainer">
+            <p class="text--h3 textPeach center">Semester 5 <br> <span class="textBlack text--20--b">Data Mining</span></p>
+            <div class="cardRowContainer cardRowContainerSingle">
+                <div class="cardContainer">
+                    <div class="cardImgContainer">
+                        <img src="assets/tbs.png" alt="" class="cardImg">
+                    </div>
+                    <div class="cardTextContainer">
+                        <span class="cardTitle text--20--b textBlack">
+                            The Body Shop Market Analysis
+                        </span>
+                        <br>
+                        <span class="cardDesc text--14--m">
+                                <a href="https://drive.google.com/file/d/11ymx_iU4QyaI367SsnZWz8zysAcvOOP1/view?usp=sharing" target="_blank" class="aText"><button class="btn1 text--btn">View</button></a>
+                        </span>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="footer text--18--b">
+        © Jacelyn Angraini
     </div>
 </body>
 </html>

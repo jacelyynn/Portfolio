@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="jquery-3.5.1.min.js"></script>
@@ -17,86 +18,66 @@
 
 <body>
     <div class="header">
-        <div class="logoDiv">        
-            <a href="index.html"><img src="assets/Logo.png" alt="" class="logo"></a>
+        <div class="logoContainer">        
+            <a href="index.html"><img src="assets/logoT.png" alt="" class="logoImg"></a>
         </div>
-        <div class="navigation">
+        <div class="navigation text--14--sb">
             <ul>
-              <li class="n"><a href="index.html">Home</a></li>
-                <li class="n"><a href="index.html#About">About Me</a></li>
-              <li class="n"><a href="index.html#Skills">Skills</a></li>
-              <li class="n"><a href="index.html#Portfolio">Portfolio</a>
+              <li class="navItem"><a href="index.html">Home</a></li>
+                <li class="navItem"><a href="index.html#About">About</a></li>
+              <li class="navItem"><a href="index.html#Skills">Skills</a></li>
+              <li class="navItem"><a href="index.html#Portfolio">Portfolio</a>
                 <ul class="dropdown">
                     <li><a href="personalProject.html">Personal Projects</a></li>
                     <li><a href="uniProject.html">University Projects</a></li>
                     <li><a href="personalDev.html">Personal Development</a></li>
                   </ul>
                 </li>
-              <li class="n"><a href="index.html#Contact">Contact</a></li>
+              <li class="navItem"><a href="index.html#Contact">Contact</a></li>
             </ul>
         </div>
     </div>
+
     <div class="main">
-        <div class="container1">
-            <h1 class="text--big " data-aos="fade-down">Hello there, <br>I'm <span class="textPeach hFont">Jacelyn</span>! </h1>
-            <p class="text--normal" data-aos="fade-up">I am a curious, self-motivated computer science undergraduate student with an eye for detail. I am fascinated with the power of leveraging data to gain powerful insights and positively contribute to organization's objectives. I am currently seeking an opportunity to apply my skills into the industry. <br> <br>On my website you can find some examples of projects I have done in the past including personal and university projects. Have fun browsing through the content and thank you for visiting my website!</p>
-        </div>
         <div class="container2">
             <img src="assets/meT.png" alt="" class="reading" data-aos="zoom-in">
         </div>
-
+        <div class="container1">
+            <span class="text--h1 textBlue" data-aos="fade-down">Hello there, <br>I'm <span class="textPeach">Jacelyn</span>! </span>
+            <br>
+            <span class="text--14--m textDarkGrey" data-aos="fade-up">
+                I am a curious, self-motivated computer science undergraduate student with an eye for detail. I am fascinated with the power of leveraging data to gain powerful insights and positively contribute to organization's objectives. I am currently seeking an opportunity to apply my skills into the industry. 
+                <br><br>
+                On my website you can find some examples of projects I have done in the past including personal and university projects. Have fun browsing through the content and thank you for visiting my website!
+            </span>
+            <br>
+            <a href="/"><button class="btn1 text--btn m-top">Read my CV!</button></a>
+        </div>
+        
     </div>
+
 <a name="About">
     <div class="about">
-        <div class="aboutContainer1">
-            <img src="assets/meT3.png" alt="" class="aboutImg" data-aos="fade-right">
-
-        </div>
         <div class="aboutContainer2" data-aos="fade-left">
-            <p class="text--sub textLight hFont">A Few Words About Me</p>
-            <p class="text--normal textNavy">
+            <p class="text--h2 textBlue">A Few Words About Me</p>
+            <p class="text--14--m textWhite center">
                 I am a computer science student with a streaming track in database technology. I am a highly-analytical computer science student who enjoys solving problems for fun. Since I was young, I have always enjoyed solving puzzles. Thats how I look at a data set, as a puzzle that needs to be solved. Finding patterns in a data set is not an easy task but I see it as a challenge waiting to be solved.  I am also a quick learner and a good team player. 
             <br><br>
-            <!-- Check out my resume dashboard at Tableau! -->
             <br>
             </p>
-            <!-- <button class="btn1">View</button> -->
         </div>
     </div>
 </a>
+
 <a name="Skills">
     <div class="skills">
-        <p class="text--sub textPeach hFont" data-aos="zoom-in-right">What I Can Do</p>
-        <p class="text--normal sText textNavy" data-aos="zoom-in-left">
-            I am always looking for new things to learn, to me we can learn anything as long as we set our mind to it. Here are the key skills I have which I acquired from my time in university and some I learn on my own.
-        <br></p>
-        <div class="skillsRow" data-aos="zoom-in">
-            <div class="skillsDetail">
-                <div class="skillsImg">
-                    <img src="assets/sql.png" alt="" class="workImg">
-                </div>
-                <p class="text--sub2">SQL</p>
-                <div class="progress-border">
-                    <div class="progress-bar-sql"></div>
-                </div> 
-            </div>
-            <div class="skillsDetail">
-                <div class="skillsImg">
-                    <img src="assets/r.png" alt="" class="workImg">
-                </div>
-                <p class="text--sub2">R</p>
-                <div class="progress-border">
-                    <div class="progress-bar-r"></div>
-                </div> 
-            </div>
-            <div class="skillsDetail">
-                <div class="skillsImg">
-                    <img src="assets/tableau.png" alt="" class="workImg">
-                </div>
-                <p class="text--sub2">Tableau</p>
-                <div class="progress-border">
-                    <div class="progress-bar-tableau"></div>
-                </div> 
+        <div class="skillsHeader">
+            <div class="skillsHeaderContainer">
+                <span class="text--h2 textPeach" data-aos="zoom-in-right">What I Can Do</span>
+                <br>
+                <span class="text--14--m textWhite" data-aos="zoom-in-left">
+                    I am always looking for new things to learn, to me we can learn anything as long as we set our mind to it. Here are the key skills I have which I acquired from my time in university and some I learn on my own.
+                <br></span>
             </div>
         </div>
         <div class="skillsRow" data-aos="zoom-in">
@@ -104,7 +85,7 @@
                 <div class="skillsImg">
                     <img src="assets/html.png" alt="" class="workImg">
                 </div>
-                <p class="text--sub2">HTML</p>
+                <p class="text--18--b textWhite">HTML</p>
                 <div class="progress-border">
                     <div class="progress-bar-html"></div>
                 </div> 
@@ -113,104 +94,181 @@
                 <div class="skillsImg">
                     <img src="assets/css.png" alt="" class="workImg">
                 </div>
-                <p class="text--sub2">CSS</p>
+                <p class="text--18--b textWhite">CSS</p>
                 <div class="progress-border">
                     <div class="progress-bar-css"></div>
                 </div> 
             </div>
             <div class="skillsDetail">
                 <div class="skillsImg">
-                    <img src="assets/js.png" alt="" class="workImg">
-                </div>                <p class="text--sub2">JavaScript</p>
-                <div class="progress-border">
-                    <div class="progress-bar-js"></div>
-                </div> 
-            </div>
-        </div>
-        <div class="skillsRow" data-aos="zoom-in">
-            <div class="skillsDetail">
-                <div class="skillsImg">
                     <img src="assets/java.png" alt="" class="workImg">
                 </div>
-                <p class="text--sub2">Java</p>
+                <p class="text--18--b textWhite">Java</p>
                 <div class="progress-border">
                     <div class="progress-bar-java"></div>
                 </div> 
             </div>
             <div class="skillsDetail">
                 <div class="skillsImg">
+                    <img src="assets/wIcon-aws.svg" alt="" class="workImg">
+                </div>                
+                <p class="text--18--b textWhite">AWS</p>
+                <div class="progress-border">
+                    <div class="progress-bar-aws"></div>
+                </div> 
+            </div> 
+        </div>
+        <div class="skillsRow" data-aos="zoom-in">
+            <div class="skillsDetail">
+                <div class="skillsImg">
+                    <img src="assets/sql.png" alt="" class="workImg">
+                </div>
+                <p class="text--18--b textWhite">SQL</p>
+                <div class="progress-border">
+                    <div class="progress-bar-sql"></div>
+                </div> 
+            </div>
+            <div class="skillsDetail">
+                <div class="skillsImg">
+                    <img src="assets/r.png" alt="" class="workImg">
+                </div>
+                <p class="text--18--b textWhite">R</p>
+                <div class="progress-border">
+                    <div class="progress-bar-r"></div>
+                </div> 
+            </div>
+            <div class="skillsDetail">
+                <div class="skillsImg">
+                    <img src="assets/wIcon-rm.png" alt="" class="workImg">
+                </div>
+                <p class="text--18--b textWhite">RapidMiner</p>
+                <div class="progress-border">
+                    <div class="progress-bar-rm"></div>
+                </div> 
+            </div>
+            <div class="skillsDetail">
+                <div class="skillsImg">
                     <img src="assets/python.png" alt="" class="workImg">
-                </div>                <p class="text--sub2">Python</p>
+                </div>                
+                <p class="text--18--b textWhite">Python</p>
                 <div class="progress-border">
                     <div class="progress-bar-python"></div>
+                </div> 
+            </div>
+        </div>
+        <div class="skillsRow" data-aos="zoom-in">
+            <div class="skillsDetail">
+                <div class="skillsImg">
+                    <img src="assets/tableau.png" alt="" class="workImg">
+                </div>
+                <p class="text--18--b textWhite">Tableau</p>
+                <div class="progress-border">
+                    <div class="progress-bar-tableau"></div>
+                </div> 
+            </div>
+            
+            <div class="skillsDetail">
+                <div class="skillsImg">
+                    <img src="assets/js.png" alt="" class="workImg">
+                </div>                <p class="text--18--b textWhite">JavaScript</p>
+                <div class="progress-border">
+                    <div class="progress-bar-js"></div>
                 </div> 
             </div>
             <div class="skillsDetail">
                 <div class="skillsImg">
                     <img src="assets/ps.png" alt="" class="workImg">
                 </div>                
-                <p class="text--sub2">Photoshop</p>
+                <p class="text--18--b textWhite">Photoshop</p>
                 <div class="progress-border">
                     <div class="progress-bar-ps"></div>
                 </div> 
             </div>
+
+            <div class="skillsDetail">
+                <div class="skillsImg">
+                    <img src="assets/wIcon-figma.svg" alt="" class="workImg">
+                </div>                
+                <p class="text--18--b textWhite">Figma</p>
+                <div class="progress-border">
+                    <div class="progress-bar-figma"></div>
+                </div> 
+            </div>
+           
         </div>
     </div>
 </a>
+
 <a name="Portfolio">
     <div class="work">
-        <p class="text--sub w textLight hFont" data-aos="zoom-out-left">My Work So Far</p>
+        <p class="text--h2 w textBlue" data-aos="zoom-out-left">My Work So Far</p>
         <br>
-        <div class="workContainer">
-            <div class="workContainer1" data-aos="fade-down">
-                <p class="text--sub2">Personal Projects <br><span class="s">Take a look at some personal projects I made!</span></p>
+
+        <div class="workContainer textDarkGrey">
+            <div class="workContainerItem" data-aos="fade-down">
+                
                 <div class="workImage">
-                    <img src="assets/Dashboard-bro(1).png" alt="">
+                    <img src="assets/icon-11.png" alt="">
                 </div>
-                <a href="personalProject.html"><button class="btn1">View</button></a>
+
+                <p class="workText"><span class="workTitle text--20--b textRed">Personal Projects</span> <br><span class="text--14--m">Take a look at some personal projects I made!</span></p>
+
+                <a href="personalProject.html" class="workBtn"><button class="btn1 text--btn ">View</button></a>
             </div>
-            <div class="workContainer1" data-aos="fade-up">
-                <p class="text--sub2">University Projects <br><span class="s">Take a look at projects I made with my class mates.</span></p>
+            <div class="workContainerItem" data-aos="fade-up">
+
                 <div class="workImage">
-                    <img src="assets/Team spirit-bro.png" alt="">
+                    <img src="assets/icon-12.png" alt="">
                 </div>
-                <a href="uniProject.html"><button class="btn1">View</button></a>
+
+                <p class="workText"><span class="workTitle text--20--b textRed">University Projects</span> <br><span class="text--14--m">Take a look at projects I made for my classwork.</span></p>
+
+                <a href="uniProject.html"><button class="btn1 text--btn">View</button></a>
             </div>
-            <div class="workContainer1" data-aos="fade-down">
-                <p class="text--sub2">Professional Development <br><span class="s">Some professional training I completed to upgrade my skills.</span></p>
+            <div class="workContainerItem" data-aos="fade-down">
+
                 <div class="workImage">
-                    <img src="assets/Blog post-bro(1).png" alt="">
+                    <img src="assets/icon-13.png" alt="">
                 </div>
-                <a href="personalDev.html"><button class="btn1">View</button></a>
+
+                <p class="workText"><span class="workTitle text--20--b textRed">Personal Development</span> <br><span class="text--14--m">Some online training I completed to upgrade my skills.</span></p>
+
+                <a href="personalDev.html"><button class="btn1 text--btn">View</button></a>
             </div>
         </div>
     </div>
 </a>
+
 <a name="Contact">
     <div class="contact">
-        <div class="contactContainer1">
-            <img src="assets/meT2.png" alt="" data-aos="fade-right">
+        <div class="contactContainerImg">
+            <img src="assets/icon-14.png" alt="" data-aos="fade-right">
         </div>
-        <div class="contactContainer2">
-            <p class="text--sub" data-aos="zoom-in">
+        <div class="contactContainerText text--18--b">
+            <p class="text--h2 textDarkGrey" data-aos="zoom-in">
                 <span class="hFont textPeach">Contact me!</span>
             </p>
-            <div class="c">
-                <a href="https://www.linkedin.com/in/jacelyn-angraini/" target="_blank"><img src="assets/linkedin.png" alt=""></a>LinkedIn 
+            <div class="contactItem">
+                <a href="https://www.linkedin.com/in/jacelyn-angraini/" target="_blank"><img src="assets/icon-linkedin.svg" alt=""></a><a href="https://www.linkedin.com/in/jacelyn-angraini/" target="_blank"><span class="contactItemName">LinkedIn</span></a>
                 <br>
             </div>
-            <div class="c">
-                <img src="assets/mail(1).png" alt="">E-mail 
+            <div class="contactItem">
+                <img src="assets/icon-email.svg" alt=""><span class="contactItemName">E-mail
                 <br>
-                jacelyn.angraini@binus.ac.id
+                mails.jacelyn@gmail.com</span>
             </div>
-            <div class="c">
-                <img src="assets/whatsapp.png" alt="">WhatsApp
+            <div class="contactItem">
+                <img src="assets/icon-phone.svg" alt=""><span class="contactItemName">WhatsApp
                 <br>
-                081808361699
+                081808361699</span>
             </div>
         </div>
     </div>
 </a>
+
+<div class="footer text--18--b">
+    © Jacelyn Angraini
+</div>
+
 </body>
 </html>
